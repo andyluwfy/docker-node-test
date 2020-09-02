@@ -1,0 +1,14 @@
+{
+  "name": "docker-node-test",
+  "version": "1.0.0",
+  "description": "nodejs image demo",
+  "author": "NDK",
+  "license": "MIT",
+  "main": "app.js",
+  "keywords": [
+    "nodejs"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
