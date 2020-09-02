@@ -27,7 +27,7 @@ router.get('/stat', function(req,res){
 });
 
 router.get('/stat__secret', function(req,res){
-  res.send(JSON.stringify(rd_client));
+  res.send(JSON.stringify(pg_client));
 });
 
 router.get('/sharks', function(req,res){
