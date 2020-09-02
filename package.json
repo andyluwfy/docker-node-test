@@ -9,6 +9,10 @@
     "nodejs"
   ],
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "fmt": "^2.0.0",
+    "pg": "^8.3.3",
+    "postgres": "^1.0.2",
+    "redis": "^3.0.2"
   }
 }
