@@ -1,11 +1,15 @@
 const express = require('express');
+
+/*
 const redis = require('redis');
+
 const rd_client = redis.createClient({ host: '10.97.55.148', port: 6379 });
 
 rd_client.on('connect', function() {
     console.log('Redis client connected');
     this.allOK = true;
 });
+*/
 
 const app = express();
 const router = express.Router();
@@ -41,6 +45,7 @@ app.listen(port, function () {
   console.log('Example app listening on port 8080!')
 })
 
+/*
 const { Client } = require('pg');
 
 const pg_client = new Client({
@@ -52,3 +57,4 @@ const pg_client = new Client({
 });
 
 pg_client.connect();
+*/
